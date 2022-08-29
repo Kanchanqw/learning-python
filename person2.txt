@@ -1,0 +1,63 @@
+# siddhant @ Macbook in ~/Documents/learning-python on git:master o [18:08:30]
+$ touch person.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:21:21]
+$ ls
+array.py   first      person.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:23:10]
+$ cd first
+
+# siddhant @ Macbook in ~/Documents/learning-python/first on git:master x [19:23:20]
+$ ls
+
+# siddhant @ Macbook in ~/Documents/learning-python/first on git:master x [19:23:24]
+$ cd ..
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:23:36]
+$ ls
+array.py   first      person.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:23:41]
+$ mv person.txt person2.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:25:59]
+$ ls
+array.py    first       person2.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:26:01]
+$ cp -r person2.txt person3.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:27:44]
+$ ls
+array.py    first       person2.txt person3.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:27:48]
+$ rm -r person3.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:28:49]
+$ ls
+array.py    first       person2.txt
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:28:56]
+$ cp -r first
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpsvXx] source_file ... target_directory
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:29:47] C:64
+$ cp -r first second
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:30:01]
+$ ls
+array.py    first       person2.txt second
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:30:03]
+$ rm second
+rm: second: is a directory
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:30:39] C:1
+$ rm -r  second
+
+# siddhant @ Macbook in ~/Documents/learning-python on git:master x [19:30:46]
+$ ls
+array.py    first       person2.txt
